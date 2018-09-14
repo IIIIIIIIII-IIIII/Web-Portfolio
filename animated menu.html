@@ -1,0 +1,48 @@
+<style>
+    .container {
+        display: inline-block; /* avoid changing the row */
+        /*  a non-lengthened block */
+        cursor: pointer;
+    }
+
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0; /* scale nicely */
+        transition: 0.4s;
+        /* change the value of properties smoothly */
+    }
+
+    .change .bar1 {
+        /* -webkit-transform: rotate(-45deg) translate(-9px, 6px); */
+        transform: rotate(-45deg) translate(-7px, 15px);
+        /* translate() change the position of the element */
+    }
+
+    .change .bar2 {
+        opacity: 0; /* make the line invisible by changing opacity */
+    }
+
+    .change .bar3 {
+        /* -webkit-transform: rotate(45deg) translate(-8px, -8px); */
+        transform: rotate(45deg) translate(0px, -9px);
+    }
+</style>
+
+<body>
+    <p>Click on the Menu Icon to transform it to "X":</p>
+    <div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+</body>
+
+<script>
+    function myFunction(x) {
+        x.classList.toggle("change");  /* change the classname manually by using ClassList */
+    }
+</script>
