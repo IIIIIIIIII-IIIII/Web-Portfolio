@@ -1,4 +1,4 @@
-# Web-Portfolio
+# Web-Learning-Journal
 
 ## Animated Menu
 The hamburger button is animated by clicking them.
