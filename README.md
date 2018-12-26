@@ -1,4 +1,4 @@
-# Web-Learning-Journal
+# Frontend-Learning-Journal
 This is my learning journal in the web-development. Most of them are some useful websites i starred in my browser. Also, some code example for understanding some difficult concepts and implementation.
 ## Animated Menu
 The hamburger button is animated by clicking them.
